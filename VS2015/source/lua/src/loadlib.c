@@ -23,7 +23,7 @@
 #include "lauxlib.h"
 #include "lualib.h"
 
-
+#pragma comment(lib, "kernel32.lib")
 /*
 ** LUA_PATH_VAR and LUA_CPATH_VAR are the names of the environment
 ** variables that Lua check to set its paths.
